@@ -10,7 +10,7 @@ import time
 TOKEN = 'your_token_here'
 bot = telegram.Bot(token=TOKEN)
 chat_id='your_chat_id_here'
-f = open('words1.txt', 'r', encoding='UTF-8')
+f = open('dictionary.txt', 'r', encoding='UTF-8')
 words = f.read().split('\n')
 f.close()
 temp = ''
